@@ -1,0 +1,40 @@
+{
+  "applications": [
+    {
+      "name": "гаджи 3535",
+      "phone": "+7 928 675-15-24",
+      "email": "asasin89280550@gmail.com",
+      "course": "course-js",
+      "status": "new",
+      "date": "14.12.2023",
+      "id": 4
+    },
+    {
+      "name": "гаджи 3555",
+      "phone": "+7 928 678-73-73",
+      "email": "gadji180105@gmail.com",
+      "course": "course-js",
+      "status": "new",
+      "date": "14.12.2023",
+      "id": 5
+    },
+    {
+      "name": "geg4646",
+      "phone": "+79280582513",
+      "email": "ibraskaahaev@gmail.com",
+      "course": "course-wordpress",
+      "status": "new",
+      "date": "14.12.2023",
+      "id": 6
+    },
+    {
+      "name": "Heisengerg",
+      "phone": "+7 928 678-73-73",
+      "email": "gadji@gmail.com",
+      "course": "course-js",
+      "status": "new",
+      "date": "14.12.2023",
+      "id": 7
+    }
+  ]
+}
