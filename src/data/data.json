@@ -1,40 +1,103 @@
 {
   "applications": [
     {
-      "name": "гаджи 3535",
-      "phone": "+7 928 675-15-24",
-      "email": "asasin89280550@gmail.com",
-      "course": "course-js",
+      "name": "Егор Безруков",
+      "phone": 420772557757,
+      "email": "bezrukov@seznam.cz",
+      "course": "course-wordpress",
       "status": "new",
-      "date": "14.12.2023",
+      "date": "15.12.2023",
+      "id": 1
+    },
+    {
+      "name": "Валентин Козлюк",
+      "phone": 420770552577,
+      "email": "kozluk@seznam.cz",
+      "course": "course-vue",
+      "status": "new",
+      "date": "15.12.2023",
+      "id": 2
+    },
+    {
+      "name": "Екатерина Похоменко",
+      "phone": 420777554717,
+      "email": "pochomenko@mail.ru",
+      "course": "course-php",
+      "status": "new",
+      "date": "15.12.2023",
+      "id": 3
+    },
+    {
+      "name": "Светлана Козырь",
+      "phone": 420773555727,
+      "email": "kozyr@seznam.cz",
+      "course": "course-html",
+      "status": "new",
+      "date": "15.12.2023",
       "id": 4
     },
     {
-      "name": "гаджи 3555",
-      "phone": "+7 928 678-73-73",
-      "email": "gadji180105@gmail.com",
+      "name": "Елена Иванова",
+      "phone": 420772551797,
+      "email": "ivanova@seznam.cz",
       "course": "course-js",
       "status": "new",
-      "date": "14.12.2023",
+      "date": "15.12.2023",
       "id": 5
     },
     {
-      "name": "geg4646",
-      "phone": "+79280582513",
-      "email": "ibraskaahaev@gmail.com",
-      "course": "course-wordpress",
+      "name": "Иван Фролов",
+      "phone": 420772551797,
+      "email": "frolov@gmail.com",
+      "course": "course-js",
       "status": "new",
-      "date": "14.12.2023",
+      "date": "15.12.2023",
       "id": 6
     },
     {
-      "name": "Heisengerg",
-      "phone": "+7 928 678-73-73",
-      "email": "gadji@gmail.com",
+      "name": "Роман Веселый",
+      "phone": 420779554747,
+      "email": "vesely@seznam.cz",
+      "course": "course-php",
+      "status": "new",
+      "date": "15.12.2023",
+      "id": 7
+    },
+    {
+      "name": "Василий Пупкин",
+      "phone": 420776555787,
+      "email": "pupkin@mail.ru",
+      "course": "course-vue",
+      "status": "new",
+      "date": "15.12.2023",
+      "id": 8
+    },
+    {
+      "name": "Иван Фролов",
+      "phone": 420772551797,
+      "email": "frolov@gmail.com",
       "course": "course-js",
       "status": "new",
-      "date": "14.12.2023",
-      "id": 7
+      "date": "15.12.2023",
+      "id": 9
+    },
+    {
+      "name": "Валентин Козлюк",
+      "phone": 420770552577,
+      "email": "kozluk@seznam.cz",
+      "course": "course-vue",
+      "status": "new",
+      "date": "15.12.2023",
+      "id": 10
+    },
+    {
+      "name": "Василий Пупкин",
+      "phone": 420776555787,
+      "email": "pupkin@mail.ru",
+      "course": "course-vue",
+      "status": "new",
+      "date": "15.12.2023",
+      "id": 11
     }
   ]
 }

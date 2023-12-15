@@ -1,4 +1,5 @@
 import InputForm from "./InputForm";
+import dataTest from "./dataTest.js";
 
 function Form() {
     return (
@@ -13,7 +14,7 @@ function Form() {
         
 		    	    <div className="white-plate__line-between white-plate__line-between--main"></div>
 
-		    	    <InputForm/>
+		    	    <InputForm dataTest={dataTest}/>
 
 		        </div>
 	        </div>

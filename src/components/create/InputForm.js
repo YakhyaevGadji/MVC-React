@@ -1,11 +1,12 @@
 import { useState } from "react";
 
-function InputForm() {
-	
-	const [inputName, setInputName] = useState('');
-	const [inputPhone, setInputPhone] = useState('');
-	const [inputEmail, setInputEmail] = useState('');
-	const [selectCourse, setSelectCourse] = useState('');
+function InputForm({dataTest}) {
+	const data = dataTest();
+
+	const [inputName, setInputName] = useState(data.name);
+	const [inputPhone, setInputPhone] = useState(data.phone);
+	const [inputEmail, setInputEmail] = useState(data.email);
+	const [selectCourse, setSelectCourse] = useState(data.product);
 	const [loading, setLoading] = useState(false);
 
 
@@ -32,6 +33,7 @@ function InputForm() {
 
 	const formSubmit = (e) => {
 		e.preventDefault();
+		
 
 		const dataInputs = {
 			name: inputName, 
@@ -50,6 +52,7 @@ function InputForm() {
 		}).then(() => {
 			setLoading(false);
 			resetInputsValue();
+			dataTest();
 		});
 	};
 
