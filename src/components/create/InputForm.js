@@ -7,6 +7,7 @@ function InputForm({dataTest}) {
 	const [inputPhone, setInputPhone] = useState(data.phone);
 	const [inputEmail, setInputEmail] = useState(data.email);
 	const [selectCourse, setSelectCourse] = useState(data.product);
+	const [error, setError] = useState(false);
 	const [loading, setLoading] = useState(false);
 
 
@@ -53,6 +54,9 @@ function InputForm({dataTest}) {
 			setLoading(false);
 			resetInputsValue();
 			dataTest();
+		}).catch(() => {
+			setError(true);
+			setLoading(false);
 		});
 	};
 
@@ -81,6 +85,7 @@ function InputForm({dataTest}) {
 		    <div className="form-group">
 				{loading && <button disabled type="submit" className="btn btn-lg btn-primary btn-block">Отправка заявки...</button>}
 				{!loading && <button type="submit" className="btn btn-lg btn-primary btn-block">Оформить заявку</button>}
+				{error && <h1>error to fetch</h1>}
 		    </div>
 		</form>
     );

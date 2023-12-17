@@ -2,7 +2,7 @@ import { Link, useParams, useNavigate } from "react-router-dom";
 import useItemFetch from "../fetchPost/useItemFetch";
 import { useEffect, useState } from "react";
 
-function Edit() {
+function Edit({setUpdateFetch, updateFetch}) {
 	
 	const {id} = useParams();
 	const {item, isLoading, error} = useItemFetch('http://localhost:8000/applications/' + id);
@@ -27,6 +27,7 @@ function Edit() {
 		e.preventDefault();
 
 		setUpdate(true);
+		setUpdateFetch(!updateFetch);
 
 		const data = {
 			course: document.querySelector('#product').value, 
